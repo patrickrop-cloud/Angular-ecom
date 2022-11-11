@@ -1,0 +1,39 @@
+<!-- <p>header works!</p> -->
+<header>
+  <!-- <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-items-end d-flex">
+     
+      <div class="trendy">
+        <strong routerLink="/products" style="margin-left: 50px;">Trendy</strong>
+      </div>
+      <div class="form-control">
+        <input type="text" id="search" placeholder="search product">
+      </div>
+      <span class="fas fa-search search-icon"></span>
+      <div id="icon">
+        <i class="fas fa-cart-plus" routerLink="/cart" style="font-size: 25px; color: black; margin-left: 30px;" ></i> 
+      </div>
+      <div class="badge bg-success" style="font-size: 10px;">{{totalProduct}}</div>
+    </div>
+  </div> -->
+  <mat-toolbar color="primary">
+    <div class="trendy">
+      <span routerLink="/products">Trendy</span>
+    </div>
+    <div class="form-control">
+      <input type="text" id="search" placeholder="search product">
+    </div>
+    <span class="fas fa-search search-icon"></span>
+    <div class="button">
+      <button  class="btn btn-outline-warning">
+        <i class="fas fa-cart-plus" routerLink="/cart" style="font-size: 25px;" ></i> 
+        <div class="badge bg-success" style="font-size: 10px;">{{totalProduct}}</div>
+      </button>
+    </div>
+  
+  </mat-toolbar>
+</header>
+
+
+
+
