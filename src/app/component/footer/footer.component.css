@@ -1,0 +1,70 @@
+
+.body{
+    background: hsl(81, 33%, 81% );
+}
+.social{
+    margin-top: -10px;
+    margin-left: -20px;
+    font-size: 10px;
+    
+}
+.social span{
+    margin-top: 5px;
+    padding: 3px;
+    /* justify-content: space-between; */
+    /* padding-right: 2px; */
+    display:flexbox;
+    flex-direction: row;
+    margin-left: 2px;
+    /* justify-content: center; */
+}
+.container-fluid{
+    background-color: black;
+    color: white;
+    height: 50vh;
+    padding-top: 10px;
+}
+.newsletter{
+    font-size: 12px;
+    flex-direction: column;
+    margin-left: 600px;
+    width: 30%;
+    padding-bottom: 50px;
+    margin-top: -115px;
+}
+.button{
+    padding-top: 2px;
+    width: 100%;
+}
+.contact-us{
+    font-size: 12px;
+    flex-direction: column;
+    margin-left: 190px;
+    width: 30%;
+    padding-bottom: 70px;
+    margin-top: -300px;
+    font-weight: 600;
+
+}
+.copy{
+    margin-left: 800px;
+    padding-top: 30px;
+    margin-top: -80px;
+  
+}
+.useful-links{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+a:hover.useful-links{
+    background-color: yellowgreen;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: pink;
+}

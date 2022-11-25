@@ -1,9 +1,11 @@
 .product img{
     width: 50px;
+    height: 50px;
 }
 .product{
-    margin: 0px 10px;
-    text-align: center;
+    margin: 2px 3px;
+    /* text-align: center; */
+    padding: 3px 2px;
 }
 .card{
     padding: 10px;
@@ -29,4 +31,5 @@
 .product.img{
     width: 250px;
     /* height: 250px; */
+   
 }

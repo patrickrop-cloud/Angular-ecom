@@ -1,4 +1,6 @@
 <!-- <p>cart works!</p> -->
+<app-header></app-header>
+<div class="container-fluid">
 <ng-container *ngIf="products.length !=0">
   <div class="container">
     <div class="card-table">
@@ -50,5 +52,6 @@
         <h6>Add product</h6>
         <button routerLink="/products" class="btn btn-outline-primary">Shop now</button>
     </div>
-</ng-container> 
-
+</ng-container>
+<app-footer></app-footer> 
+</div>
